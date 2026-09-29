@@ -47,7 +47,7 @@ export default function AdminPage() {
   };
 
   return (
-    <div className="min-h-screen bg-stone-50 flex flex-col items-center py-12 px-4 font-montserrat">
+    <div className="h-[100dvh] w-full overflow-y-auto overflow-x-hidden smooth-mobile-scroll bg-stone-50 flex flex-col items-center py-12 px-4 font-montserrat">
       <div className="w-full max-w-xl bg-white p-8 rounded-3xl shadow-[0_20px_50px_-20px_rgba(0,0,0,0.1)] border border-stone-200">
         <h1 className="text-3xl font-playball text-stone-800 text-center mb-8">Invitation Link Generator</h1>
         
