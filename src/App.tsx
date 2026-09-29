@@ -14,7 +14,7 @@ const backgroundMusic = "/fani_ellie-goulding-love-me-like-you-do-mp3.mp3";
 const flowerImage = "/silver_orchid.png";
 const flowerCornerImage = "/silver_orchid_corner.png";
 const flowerArchImage = "/silver_orchid_arch.png";
-const brideGroomImage = "/img1.jpg";
+const brideGroomImage = "/img2.jpg";
 
 type InviteImageProps = React.ComponentProps<"img"> & {
   eager?: boolean;
@@ -653,7 +653,7 @@ export default function WeddingInvitation() {
                     <div className="relative z-10 space-y-4 py-8 md:py-12">
                       <div className="space-y-2">
                         <p className="text-[7px] md:text-[8px] uppercase tracking-[0.4em] font-bold text-stone-400">Beloved daughter of</p>
-                        <p className="text-xs md:text-sm font-cinzel text-stone-600 tracking-wide leading-relaxed">Mr. K.N Karunadasa<br />& [Mother's Name TBA]</p>
+                        <p className="text-xs md:text-sm font-cinzel text-stone-600 tracking-wide leading-relaxed">Mr. K.N Karunadasa<br />& Mrs. C Subashini Dilrukshi</p>
                       </div>
                       <h3 className="text-5xl md:text-7xl font-playball text-theme-800 group-hover:scale-110 transition-transform duration-700 pt-6 drop-shadow-sm">Mavishka</h3>
                     </div>
@@ -882,7 +882,7 @@ export default function WeddingInvitation() {
                     <div className="h-px w-16 md:w-24 bg-gradient-to-l from-transparent to-theme-300" />
                   </div>
                   <p className="text-stone-300 text-sm md:text-base max-w-md mx-auto leading-relaxed mb-16 tracking-wide font-light">
-                    We would be absolutely thrilled to celebrate with you. Kindly respond by the end of March.
+                    We would be absolutely thrilled to celebrate with you. Kindly respond before October 4.
                   </p>
 
                   {/* Premium RSVP Form */}
